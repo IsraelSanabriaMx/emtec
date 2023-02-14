@@ -1,0 +1,42 @@
+.card-container {
+  width: 30%;
+  margin: 10px 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+}
+
+.back-img,
+.front-img {
+  width: 100%;
+}
+
+.front-text,
+.back-text,
+.back-description {
+  padding: 10px;
+}
+
+
+.back-description>p {
+  padding: 30px 0;
+}
+
+.back-cover {
+  display: flex;
+  justify-content: center;
+}
+
+.back-image,
+.back-text {
+  width: 50%;
+}
+
+.btn {
+  width: 95%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
